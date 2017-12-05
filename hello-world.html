@@ -21,36 +21,26 @@
 			padding: 10px;
 			text-align: center;
 		}
-
-		
-
-	
 	</style>
 </head>
 
 <body>
-	<input>enter name
-	<input/>
+	<input id="1">enter name
+	</input>
 	<p>
 	</p>
-	<button>
+	<button id="shoot">
 		Shoot!
 	</button>
-	<img src="images/rock_paper_scissors"/>
+	<img src="images/rock_paper_scissors" />
 	<div id="mainContent">
 		<p id="helloText">?</p>
 		<button id="clickButton" class="buttonStyle">click me</button>
 	</div>
-	<script>
-		var myButton = document.getElementById("clickButton");
-		var myText = document.getElementById("helloText");
+	<div id="first">
+		hi
+	</div>
 
-		myButton.addEventListener('click', doSomething, false)
-
-		function doSomething() {
-			myText.textContent = "hello, world!";
-		}
-	</script>
 
 </body>
 
